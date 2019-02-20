@@ -3,19 +3,19 @@ body
     font-family: 'Nunito', sans-serif;
     background: #f5d9df;
 }
-.navbar-nav .nav-link {
+.navbar-dark .navbar-nav .nav-link {
     color:white;
 }
-.navbar-nav .nav-link:hover {
+.navbar-dark .navbar-nav .nav-link:hover {
     color: #ea1c2c;
 }
-.navbar-brand {
+.navbar-dark .navbar-brand {
     color: white;
     font-size: 1.5rem;
     font-weight: 100;
    
 }
-.navbar-brand:hover {
+.navbar-dark .navbar-brand:hover {
     color: #ea1c2c;
     
 }
@@ -23,4 +23,37 @@ body
 {
     font-size: 1.5rem;
     font-weight: 100;
+}
+#headGroup p
+{
+    color: darkred;
+    font-size: 1.1 rem;
+}
+
+#headGroup 
+{
+   position: relative;
+   top: 40px;
+}
+@media (max-width:400px){
+    #headGroup p{
+        font-size: .2rem;
+    }
+}
+.text-darkred
+{
+    color: darkred;
+    font-weight: 100;
+}
+.section-margin{
+    margin-top: 100px;
+
+}
+.navbar.scrolled
+{
+    background:#001347;
+}
+.nav-link
+{
+    text-transform: uppercase;
 }
